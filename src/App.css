@@ -66,3 +66,19 @@
     top: 45%
   }
 }
+
+.modi {
+  animation: modi 1.5s linear infinite alternate;
+  -webkit-animation: modi 1.5s linear infinite alternate;
+}
+
+@keyframes modi {
+  from {
+    top: 75%;
+    left: -150px;
+  } 
+  to {
+    top: 45%;
+    left: 10%;
+  }
+}
