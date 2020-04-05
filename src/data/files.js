@@ -92,7 +92,7 @@ export const GIFS = [
         src: getGifPath('nibba'),
         x: 1400,
         y: 0,
-        scale: '80%',
+        scale: '100%',
     },
     {
         id: 12,
@@ -106,7 +106,7 @@ export const GIFS = [
         src: getGifPath('cake_2'),
         x: 500,
         y: 0,
-        scale: '50%',
+        scale: '60%',
     },
     
     {
@@ -114,7 +114,7 @@ export const GIFS = [
         src: getGifPath('gift_1'),
         x: 900,
         y: 0,
-        scale: '50%',
+        scale: '70%',
     },
 ]
 
