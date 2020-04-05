@@ -7,12 +7,16 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
+    "moment": "^2.24.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-howler": "^3.7.4",
+    "react-moment-countdown": "^0.4.0",
+    "react-moment-proptypes": "^1.7.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "reactstrap": "^8.4.1"
+    "reactstrap": "^8.4.1",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",

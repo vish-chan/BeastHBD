@@ -117,3 +117,27 @@ export const GIFS = [
         scale: '50%',
     },
 ]
+
+export const GIFTS = [
+    {
+        id: 0,
+        x: 0,
+        y:0,
+        video: 'video/prag.mp4',
+        opened: 'images/prag.PNG'
+    },
+
+    {
+        id: 1,
+        x: 300,
+        y:0,
+        video: 'video/papa.mp4',
+    },
+
+    {
+        id: 2,
+        x: 600,
+        y:0,
+        video: 'video/dadi.mp4'
+    }
+]
