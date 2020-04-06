@@ -121,23 +121,165 @@ export const GIFS = [
 export const GIFTS = [
     {
         id: 0,
-        x: 0,
+        x: 900,
         y:0,
         video: 'video/prag.mp4',
-        opened: 'images/prag.PNG'
+        opened: 'images/opened/prag.PNG'
     },
 
     {
         id: 1,
-        x: 300,
+        x: 0,
         y:0,
         video: 'video/papa.mp4',
+        opened: 'images/opened/papa.PNG'
     },
 
     {
         id: 2,
+        x: 300,
+        y:0,
+        video: 'video/dadi.mp4',
+        opened: 'images/opened/dadi.PNG'
+    },
+
+    {
+        id: 3,
         x: 600,
         y:0,
-        video: 'video/dadi.mp4'
-    }
+        video: 'video/Mummy.mp4',
+        opened: 'images/opened/Mummy.PNG'
+    },
+
+    {
+        id: 4,
+        x: 1200,
+        y:0,
+        video: 'video/Anika.mp4',
+        opened: 'images/opened/Anika.PNG'
+
+    },
+
+    {
+        id: 5,
+        x: 50,
+        y:400,
+        video: 'video/Anuj.mp4',
+        opened: 'images/opened/Anuj.PNG'
+
+    },
+
+    {
+        id: 6,
+        x: 350,
+        y:400,
+        video: 'video/Arushi.mp4',
+        opened: 'images/opened/Arushi.PNG'
+
+    },
+    {
+        id: 7,
+        x: 650,
+        y:400,
+        video: 'video/Bachpan.mp4',
+        opened: 'images/opened/Bachpan.PNG'
+
+    },
+
+    {
+        id: 8,
+        x: 950,
+        y:400,
+        video: 'video/BigChill.mp4',
+        opened: 'images/opened/BigChill.PNG'
+
+    },
+    {
+        id: 9,
+        x: 1250,
+        y:400,
+        video: 'video/Bubba.mp4',
+        opened: 'images/opened/Bubba.PNG'
+
+    },
+
+    {
+        id: 10,
+        x: 0,
+        y:800,
+        video: 'video/CandyCrush.mp4',
+        opened: 'images/opened/CandyCrush.PNG'
+    },
+
+    {
+        id: 11,
+        x: 300,
+        y: 800,
+        video: 'video/Coffin.mp4',
+        opened: 'images/opened/Coffin.PNG'
+    },
+
+    {
+        id: 12,
+        x: 600,
+        y: 800,
+        video: 'video/Gurbani.mp4',
+        opened: 'images/opened/Gurbani.PNG'
+    },
+    {
+        id: 13,
+        x: 900,
+        y: 800,
+        video: 'video/Krithi.mp4',
+        opened: 'images/opened/Krithi.PNG'
+    },
+
+    {
+        id: 14,
+        x: 1200,
+        y: 800,
+        video: 'video/Maithili.mp4',
+        opened: 'images/opened/Maithili.PNG'
+    },
+
+    {
+        id: 15,
+        x: 50,
+        y: 1200,
+        video: 'video/Niharika.mp4',
+        opened: 'images/opened/Niharika.PNG'
+    },
+
+    {
+        id: 16,
+        x: 350,
+        y: 1200,
+        video: 'video/Parth.mp4',
+        opened: 'images/opened/Parth.PNG'
+    },
+
+    {
+        id: 17,
+        x: 650,
+        y: 1200,
+        video: 'video/Potty_1.mp4',
+        opened: 'images/opened/Potty_1.PNG'
+    },
+
+    {
+        id: 18,
+        x: 950,
+        y: 1200,
+        video: 'video/Ritika.mp4',
+        opened: 'images/opened/Ritika.PNG'
+    },
+
+    {
+        id: 18,
+        x: 1250,
+        y: 1200,
+        video: 'video/Sushi.mp4',
+        opened: 'images/opened/Sushi.PNG'
+    },
+    
 ]

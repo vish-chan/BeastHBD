@@ -7,8 +7,8 @@ class MainComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            countdown: true,
-            gifts: false,
+            countdown: false,
+            gifts: true,
         }
 
         this.endCountDown = this.endCountDown.bind(this)
