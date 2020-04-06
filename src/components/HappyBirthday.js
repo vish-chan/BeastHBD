@@ -50,7 +50,7 @@ class HBDComponent extends Component {
                         <img style={{width:'100%'}} src="images/gift_btn.png" alt="Gifts"/>
                     </button>
                 </div>
-                <ReactHowler src="audio/Cut_hbd.ogg" preload={true} loop={true} playing={false} />
+                <ReactHowler src="audio/hbd.mp3" preload={true} loop={true} playing={true} />
             </div>
         );
     }

@@ -275,7 +275,7 @@ export const GIFTS = [
     },
 
     {
-        id: 18,
+        id: 19,
         x: 1250,
         y: 1200,
         video: 'video/Sushi.mp4',
