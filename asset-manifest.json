@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BeastHBD/static/css/main.1026615a.chunk.css",
-    "main.js": "/BeastHBD/static/js/main.22eb17e4.chunk.js",
-    "main.js.map": "/BeastHBD/static/js/main.22eb17e4.chunk.js.map",
+    "main.js": "/BeastHBD/static/js/main.11e3e3ee.chunk.js",
+    "main.js.map": "/BeastHBD/static/js/main.11e3e3ee.chunk.js.map",
     "runtime-main.js": "/BeastHBD/static/js/runtime-main.bf9981bc.js",
     "runtime-main.js.map": "/BeastHBD/static/js/runtime-main.bf9981bc.js.map",
     "static/css/2.aff48906.chunk.css": "/BeastHBD/static/css/2.aff48906.chunk.css",
     "static/js/2.3a617e4e.chunk.js": "/BeastHBD/static/js/2.3a617e4e.chunk.js",
     "static/js/2.3a617e4e.chunk.js.map": "/BeastHBD/static/js/2.3a617e4e.chunk.js.map",
     "index.html": "/BeastHBD/index.html",
-    "precache-manifest.41d1bdef0c51b57aadd1699904934e9f.js": "/BeastHBD/precache-manifest.41d1bdef0c51b57aadd1699904934e9f.js",
+    "precache-manifest.5ae0c47123963994491e52b2687fab9a.js": "/BeastHBD/precache-manifest.5ae0c47123963994491e52b2687fab9a.js",
     "service-worker.js": "/BeastHBD/service-worker.js",
     "static/css/2.aff48906.chunk.css.map": "/BeastHBD/static/css/2.aff48906.chunk.css.map",
     "static/css/main.1026615a.chunk.css.map": "/BeastHBD/static/css/main.1026615a.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.aff48906.chunk.css",
     "static/js/2.3a617e4e.chunk.js",
     "static/css/main.1026615a.chunk.css",
-    "static/js/main.22eb17e4.chunk.js"
+    "static/js/main.11e3e3ee.chunk.js"
   ]
 }
