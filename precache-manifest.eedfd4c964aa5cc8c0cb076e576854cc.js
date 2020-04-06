@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c459e1573640daf5c25a696992041e4",
+    "revision": "606249727b31da9041303d87580a2a2f",
     "url": "/BeastHBD/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BeastHBD/static/css/2.aff48906.chunk.css"
   },
   {
-    "revision": "6ab2e9ab2a9885375c11",
+    "revision": "ff101f8e10ab673966dd",
     "url": "/BeastHBD/static/css/main.80927810.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BeastHBD/static/js/2.3c9eca2f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ab2e9ab2a9885375c11",
-    "url": "/BeastHBD/static/js/main.ac8534ae.chunk.js"
+    "revision": "ff101f8e10ab673966dd",
+    "url": "/BeastHBD/static/js/main.c6816602.chunk.js"
   },
   {
     "revision": "48edce39d0e1a1f3437f",
