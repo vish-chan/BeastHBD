@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import moment from 'moment';
 
 
-const TARGET = moment("2020-04-06 23:59:59", "YYYY-MM-DD HH:mm:ss");
+const TARGET = moment("2021-04-06 23:59:59", "YYYY-MM-DD HH:mm:ss");
 
 export class CoundDownComponent extends Component{
 
