@@ -4,6 +4,42 @@ const getGifPath = (name) => `${IMG_PATH}/${name}.gif`;
 
 const getImgPath = (name) => `${IMG_PATH}/${name}.png`;
 
+const getOpenedImgPath = (name) => `${IMG_PATH}/opened/${name}.png`;
+
+export const RESOURCE = [
+    getGifPath("back"),
+    getGifPath("cake_2"),
+    getGifPath("cat_1"),
+    getImgPath("cat_5"),
+    getGifPath("cat_7"),
+    getGifPath("download"),
+    getGifPath("fw_1"),
+    getGifPath("fw_2"),
+    getGifPath("fw_3"),
+    getGifPath("fw_4"),
+    getGifPath("fw_5"),
+    getGifPath("fw_6"),
+    getGifPath("gift_1"),
+    getImgPath("gift_btn"),
+    getImgPath("modi"),
+    getGifPath("nibba"),
+    getOpenedImgPath("Anika"),
+    getOpenedImgPath("Anuj"),
+    getOpenedImgPath("Arushi"),
+    getOpenedImgPath("Bubba"),
+    getOpenedImgPath("Dadi"),
+    getOpenedImgPath("Gurbani"),
+    getOpenedImgPath("Krithi"),
+    getOpenedImgPath("Maithili"),
+    getOpenedImgPath("Mummy"),
+    getOpenedImgPath("Niharika"),
+    getOpenedImgPath("Papa"),
+    getOpenedImgPath("Parth"),
+    getOpenedImgPath("Prag"),
+    getOpenedImgPath("Ritika"),
+    getOpenedImgPath("Vishal"),
+]
+
 export const GIFS = [
     {
         id: 0,
@@ -124,23 +160,23 @@ export const GIFTS = [
         x: 900,
         y:0,
         video: 'video/prag.mp4',
-        opened: 'images/opened/prag.PNG'
+        opened: 'images/opened/Prag.png'
     },
 
     {
         id: 1,
         x: 0,
         y:0,
-        video: 'video/papa.mp4',
-        opened: 'images/opened/papa.PNG'
+        video: 'video/Papa.mp4',
+        opened: 'images/opened/Papa.png'
     },
 
     {
         id: 2,
         x: 300,
         y:0,
-        video: 'video/dadi.mp4',
-        opened: 'images/opened/dadi.PNG'
+        video: 'video/Dadi.mp4',
+        opened: 'images/opened/Dadi.png'
     },
 
     {
@@ -148,7 +184,7 @@ export const GIFTS = [
         x: 600,
         y:0,
         video: 'video/Mummy.mp4',
-        opened: 'images/opened/Mummy.PNG'
+        opened: 'images/opened/Mummy.png'
     },
 
     {
@@ -156,7 +192,7 @@ export const GIFTS = [
         x: 1200,
         y:0,
         video: 'video/Anika.mp4',
-        opened: 'images/opened/Anika.PNG'
+        opened: 'images/opened/Anika.png'
 
     },
 
@@ -165,7 +201,7 @@ export const GIFTS = [
         x: 50,
         y:400,
         video: 'video/Anuj.mp4',
-        opened: 'images/opened/Anuj.PNG'
+        opened: 'images/opened/Anuj.png'
 
     },
 
@@ -174,7 +210,7 @@ export const GIFTS = [
         x: 350,
         y:400,
         video: 'video/Arushi.mp4',
-        opened: 'images/opened/Arushi.PNG'
+        opened: 'images/opened/Arushi.png'
 
     },
     {
@@ -182,7 +218,7 @@ export const GIFTS = [
         x: 650,
         y:400,
         video: 'video/Bachpan.mp4',
-        opened: 'images/opened/Bachpan.PNG'
+        opened: 'images/opened/Bachpan.png'
 
     },
 
@@ -191,7 +227,7 @@ export const GIFTS = [
         x: 950,
         y:400,
         video: 'video/BigChill.mp4',
-        opened: 'images/opened/BigChill.PNG'
+        opened: 'images/opened/Bigchill.png'
 
     },
     {
@@ -199,7 +235,7 @@ export const GIFTS = [
         x: 1250,
         y:400,
         video: 'video/Bubba.mp4',
-        opened: 'images/opened/Bubba.PNG'
+        opened: 'images/opened/Bubba.png'
 
     },
 
@@ -208,7 +244,7 @@ export const GIFTS = [
         x: 0,
         y:800,
         video: 'video/CandyCrush.mp4',
-        opened: 'images/opened/CandyCrush.PNG'
+        opened: 'images/opened/PKNO.gif'
     },
 
     {
@@ -216,7 +252,7 @@ export const GIFTS = [
         x: 300,
         y: 800,
         video: 'video/Coffin.mp4',
-        opened: 'images/opened/Coffin.PNG'
+        opened: 'images/opened/Coffin.png'
     },
 
     {
@@ -224,14 +260,14 @@ export const GIFTS = [
         x: 600,
         y: 800,
         video: 'video/Gurbani.mp4',
-        opened: 'images/opened/Gurbani.PNG'
+        opened: 'images/opened/Gurbani.png'
     },
     {
         id: 13,
         x: 900,
         y: 800,
         video: 'video/Krithi.mp4',
-        opened: 'images/opened/Krithi.PNG'
+        opened: 'images/opened/Krithi.png'
     },
 
     {
@@ -239,7 +275,7 @@ export const GIFTS = [
         x: 1200,
         y: 800,
         video: 'video/Maithili.mp4',
-        opened: 'images/opened/Maithili.PNG'
+        opened: 'images/opened/Maithili.png'
     },
 
     {
@@ -247,7 +283,7 @@ export const GIFTS = [
         x: 50,
         y: 1200,
         video: 'video/Niharika.mp4',
-        opened: 'images/opened/Niharika.PNG'
+        opened: 'images/opened/Niharika.png'
     },
 
     {
@@ -255,7 +291,7 @@ export const GIFTS = [
         x: 350,
         y: 1200,
         video: 'video/Parth.mp4',
-        opened: 'images/opened/Parth.PNG'
+        opened: 'images/opened/Parth.png'
     },
 
     {
@@ -263,7 +299,7 @@ export const GIFTS = [
         x: 650,
         y: 1200,
         video: 'video/Potty_1.mp4',
-        opened: 'images/opened/Potty_1.PNG'
+        opened: 'images/opened/Vishal.png'
     },
 
     {
@@ -271,7 +307,7 @@ export const GIFTS = [
         x: 950,
         y: 1200,
         video: 'video/Ritika.mp4',
-        opened: 'images/opened/Ritika.PNG'
+        opened: 'images/opened/Ritika.png'
     },
 
     {
@@ -279,7 +315,7 @@ export const GIFTS = [
         x: 1250,
         y: 1200,
         video: 'video/Sushi.mp4',
-        opened: 'images/opened/Sushi.PNG'
+        opened: 'images/opened/Sushi.png'
     },
     
 ]

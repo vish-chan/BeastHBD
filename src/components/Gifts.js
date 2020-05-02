@@ -39,7 +39,7 @@ class PlayVideo extends Component {
     render() {
         return(
             <div style={{position: 'absolute', width:800, height: 600, top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>
-                <video ref={video => this.video = video} width="100%" height="100%" src={this.props.src} autoPlay controls/>
+                <video ref={video => this.video = video} width="100%" height="100%" src={this.props.src} autoPlay controls preload/>
                 <button onClick={this.handleVideoClose}>Close</button>
             </div>
         )
@@ -72,7 +72,6 @@ class GiftComponent extends Component {
         })
     }
     
-    
     render() {
         return(
             <div className='base'>
@@ -93,6 +92,8 @@ class GiftComponent extends Component {
                 </div>
             </div>
         );
+    
+        
     }
 }
 

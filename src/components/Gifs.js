@@ -30,11 +30,20 @@ export class VideoGifComponent extends Component {
 
     render() {
         return(
-            <div style={{position:'absolute', left: this.props.x, top: this.props.y, width:250, height:260 }} className="centerImage">
-                <button style={{width:'100%', height:'100%'}} className="giftbtn" onClick={this.openGift}>
-                    <img style={{width:'100%', height:'100%'}} src={this.state.opened? this.props.opened: this.props.src} alt={this.props.alt} />
-                </button>
-            </div>
+            <React.Fragment>
+                <div style={{position:'absolute', left: this.props.x, top: this.props.y, width:250, height:260, display:this.state.opened?"none": "block" }} className="centerImage">
+                    <button style={{width:'100%', height:'100%'}} className="giftbtn" onClick={this.openGift}>
+                        <img style={{width:'100%', height:'100%'}} src={this.props.src} alt={this.props.alt} />
+                    </button>
+                </div>
+                <div style={{position:'absolute', left: this.props.x, top: this.props.y, width:250, height:260, display:this.state.opened?"block": "none"}} className="centerImage">
+                    <button style={{width:'100%', height:'100%'}} className="giftbtn" onClick={this.openGift}>
+                        <div style={{width:'100%', height:'100%', backgroundImage: `url('${this.props.opened}')`, backgroundSize:'contain', backgroundPosition:'center', backgroundRepeat:'no-repeat'}}></div>
+                    </button>
+                </div>
+            </React.Fragment>
+            
+            
         );
     }
 }
